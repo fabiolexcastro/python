@@ -10,7 +10,7 @@ gp.workspace = entrada
 
 rasters = gp.ListRasters("", "TIF")
 print "listando"
-points = r"D:\Personal\_colaboraciones\_harold\_shp\points.shp"
+points = r"\points.shp"
 
 for layer in rasters:
 	print layer
